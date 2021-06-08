@@ -2,7 +2,7 @@
 
 The Midi encryptor is a program that lets you use a MIDI device to create an encyrption key.
 
-The way this program works is by converting MIDI data to what is essentially a shorthand sheet music where each note (whole, half, quarter, etc, as well as A-G) is converted to a series of characters, which is fed through Java's AES encryption function. The program has a few quirks so please watch the video before using (sorry for the orientation). 
+The way this program works is by converting MIDI data to what is essentially a shorthand sheet music where each note (whole, half, quarter, etc, as well as A-G) is converted to a series of characters, which is fed through Java's AES encryption function. The program has a few quirks -namely that you need to enter tempo information before starting, so please watch the video before using (sorry for the orientation). 
 
 This could certainly be written in such a way to eliminate the need for you to enter your tempo information, and the program's control flow could definetly use some work, but I consider this project done as far as putting anymore work into it. Feel free to use this code however you want though, this couldn't have happened without kind internet people so please feel free to use this if you find it useful. 
 
